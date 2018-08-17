@@ -1,0 +1,51 @@
+  .menu {
+            width: 100%;
+            float: left;
+            background-color: #111;
+            padding: 18px 8%;
+        }
+
+        .menu li {
+            float: left;
+            position: relative;
+           
+
+        }
+
+        .menu li a {
+            color: #9d9d9d;
+            margin-right: 25px;
+
+        }
+
+        .principal {
+            width: 100%;
+            float: left;
+            padding: 18px 8%;
+            
+
+        }
+
+        .menu li a:hover {
+            color: #fff;
+        }
+
+        .menu li ul {
+            position: absolute;
+            top: 25px;
+            left: 0;
+            background-color: #111;
+            display: none;
+        }
+
+        .menu li:hover ul,
+        .menu li.over ul {
+            display: block;
+        }
+
+        .menu li ul li {
+            padding-top: 8%;
+            display: block;
+            width: 150px;
+        }
+        
