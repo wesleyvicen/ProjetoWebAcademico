@@ -86,9 +86,15 @@ a {
 
 .principal {
     width: 100%;
-    float: left;
-    padding: 6em 15.5% 0 15.5%;
+    padding: 6em 8% 0 8%;
     text-align: center;
+}
+
+.principal h1 {
+    color: #130400;
+    padding-bottom: 0.5em;
+    background-color: white;
+    border-radius: 10px
 }
 
 .imagem {
@@ -98,4 +104,37 @@ a {
 .imagem:hover {
     border-radius: 12px;
     border-style: groove;
+}
+
+.section {
+    background-color: aqua
+}
+
+.servico {
+    width: 250px;
+    padding-bottom: 2em
+}
+
+.bg-white {
+    background-color: #fff;
+
+}
+
+article {
+    display: inline-grid;
+    margin-top: 1%
+}
+
+article h1 {
+    margin-top: 5px;
+    font-size: 18px;
+    color: #130400;
+}
+
+article p {
+    font-size: 15px;
+    color: dimgray;
+    padding: 2%
+}
+article img{
 }
