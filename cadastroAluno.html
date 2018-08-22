@@ -1,0 +1,39 @@
+<!DOCTYPE>
+<html lang="pt-br">
+    <head>
+    <title>Cadastro Aluno</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/styleCadastro.css">
+</head>
+
+<body>
+    <form class="form-login">
+        <img class="iconLogin" src="./img/register.svg" alt="" width="72" height="72">
+        <h1>Cadastro Aluno</h1>
+        <input type="text" id="inputName" class="form-control" placeholder="Digite seu Nome" required autofocus checked><br>
+        <input type="radio" id="inputTurno" name="turnos" required>Manhã
+        <input type="radio" id="inputTurno" name="turnos" required>Noite<br>
+        <select class="select" size="5" multiple>
+            <option>In. Ciências Sociais e Políticas</option>
+            <option>Introdução à Computação</option>
+            <option>Lógica Matemática</option>
+            <option>Matemática I</option>
+            <option>Programação Imperativa</option>
+            <option>Matemática II</option>
+            <option>Laboratório de Programação</option>
+            <option>Filosoﬁa e Ética</option>
+            <option>Comportamento Organizacional</option>
+            <option>Programação Orientada a Objetos</option>
+        </select><br>
+        <input type="text" id="inputMatricula" class="form-control" placeholder="Digite sua Matricula" required><br>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Digite seu Email" required autofocus><br>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Confirme sua senha" required>
+        <br>
+        <label>
+          <input type="checkbox" value="remember-me"> Lembre-me
+        </label><br>
+        <button class="btn-login" type="submit" style="cursor:hand">Entrar</button>
+    </form>
+</body>
+</html>

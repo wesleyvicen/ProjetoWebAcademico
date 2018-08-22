@@ -86,13 +86,13 @@ a {
 
 .principal {
     width: 100%;
-    padding: 6em 8% 0 8%;
+    padding: 5em 3% 0 3%;
     text-align: center;
 }
 
 .principal h1 {
+    padding: 1%;
     color: #130400;
-    padding-bottom: 0.5em;
     background-color: white;
     border-radius: 10px
 }
@@ -122,12 +122,13 @@ a {
 
 article {
     display: inline-grid;
-    margin-top: 1%
+    margin-bottom: 1%;
+    padding: 5px;
 }
 
-article h1 {
+article h2 {
     margin-top: 5px;
-    font-size: 18px;
+    font-size: 18px;padding: 0 0.4em;
     color: #130400;
 }
 
@@ -137,4 +138,10 @@ article p {
     padding: 2%
 }
 article img{
+}
+.loginCadastro a{
+    float: right;
+}
+.loginCadastro li:hover ul{
+     display: block;
 }
